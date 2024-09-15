@@ -111,6 +111,6 @@ for website_id in range(start_id, end_id):
 
     # Sleep to avoid 403 bans but skip if already in file
     if str(website_id) not in existing_skus and str(website_id) not in non_gpu_skus and str(website_id) not in error_404_skus:
-        time.sleep(3)
+        time.sleep(0.5)
 
 print('Scraping completed.')
