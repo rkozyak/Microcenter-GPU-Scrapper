@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 660979
-end_id = 660981
+start_id = 679890
+end_id = 679895
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
@@ -56,12 +56,22 @@ def determine_vendor(title):
 def extract_gpu_model(title):
     title = title.upper()
     models = [
+        # nvidia
         '4060', '4070', '4080', '4090',
         '3050', '3060', '3070', '3080', '3090',
         '2060', '2070', '2080',
         '1060', '1070', '1080',
-        'QUADRO', 'TITAN',
-        'A310', 'A380', 'A580', 'A750', 'A770'
+
+        #intel
+        'A310', 'A380', 'A580', 'A750', 'A770',
+
+        # amd
+        '5300', '5500', '5600', '5700',
+        '6300', '6400', '6500', '6600', '6650', '6700', '6750', '6800', '6900', '6950',
+        '7600', '7700', '7800', '7900',
+
+        # other
+        'QUADRO', 'TITAN', 'VEGA'
     ]
     for model in models:
         if model in title:
