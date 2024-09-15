@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # config stuff
-start_id = 678427 - 1
-end_id = 678427 + 2
+start_id = 654050
+end_id = 672120
 
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 
