@@ -94,7 +94,7 @@ for website_id in range(start_id, end_id):
             
             if 'GPU' in tab_title or 'Graphics Card' in tab_title:
                 if str(website_id) not in existing_skus:
-                    new_entry = {'ID': website_id, 'Price': price, 'Brand': brand, 'Vendor': vendor, 'Model': gpu_model, 'Tab Title': tab_title}
+                    new_entry = {'ID': website_id, 'Price': price, 'Vendor': vendor, 'Brand': brand,  'Model': gpu_model, 'Tab Title': tab_title}
                     new_df = pd.DataFrame([new_entry])
                     new_df.to_csv(file_path, mode='a', header=not os.path.exists(file_path), index=False)
                     existing_skus.add(str(website_id))
@@ -126,3 +126,18 @@ for website_id in range(start_id, end_id):
         time.sleep(0.5)
 
 print('Scraping completed.')
+
+# Sort GPU CSV
+def sort_csv(file_path):
+    if os.path.exists(file_path):
+        df = pd.read_csv(file_path)
+        if 'Vendor' in df.columns and 'Model' in df.columns:
+            df = df.sort_values(by=['Vendor', 'Model'])
+            df.to_csv(file_path, index=False)
+            print(f'Sorted and saved {file_path}')
+        else:
+            print(f'Columns for sorting not found in {file_path}.')
+    else:
+        print(f'File {file_path} does not exist.')
+
+sort_csv(file_path)
