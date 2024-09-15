@@ -80,7 +80,7 @@ for website_id in range(start_id, end_id):
                 non_gpu_skus.add(str(website_id))
                 continue
             
-            if 'GPU' in tab_title or 'Graphics Card' in tab_title or 'NVIDIA' in tab_title or 'RTX' in tab_title:
+            if 'GPU' in tab_title or 'Graphics Card' in tab_title or 'RTX' in tab_title:
                 if str(website_id) not in existing_skus:
                     new_entry = {'ID': website_id, 'Price': price, 'Brand': brand, 'Model': gpu_model, 'Tab Title': tab_title}
                     new_df = pd.DataFrame([new_entry])
