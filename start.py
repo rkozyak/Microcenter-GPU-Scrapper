@@ -145,7 +145,7 @@ def sort_csv(file_path):
     if os.path.exists(file_path):
         df = pd.read_csv(file_path)
         if 'Vendor' in df.columns and 'Model' in df.columns:
-            df = df.sort_values(by=['Vendor', 'Model'])
+            df = df.sort_values(by=['Vendor', 'Model', 'Price'])
             df.to_csv(file_path, index=False)
             print(f'Sorted and saved {file_path}')
         else:
