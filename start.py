@@ -41,6 +41,19 @@ def extract_price_and_brand(soup, website_id):
         return price, brand
     return 'Not Available', 'Unknown'
 
+# Function to get GPU model from title
+def extract_gpu_model(title):
+    models = [
+        '4060', '4070', '4080', '4090',
+        '3050', '3060', '3070', '3080', '3090',
+        '2060', '2070', '2080',
+        'TITAN RTX'
+    ]
+    for model in models:
+        if model in title:
+            return model
+    return 'Unknown'
+
 # Loop through SKUs
 for website_id in range(start_id, end_id):
     if str(website_id) in existing_skus or str(website_id) in non_gpu_skus or str(website_id) in error_404_skus:
@@ -58,7 +71,7 @@ for website_id in range(start_id, end_id):
             
             tab_title = soup.title.get_text(strip=True) if soup.title else ''
             price, brand = extract_price_and_brand(soup, website_id)
-            tab_brand = tab_title.split()[0] if tab_title else 'Unknown'
+            gpu_model = extract_gpu_model(tab_title)
             
             if any(keyword in tab_title for keyword in prebuilt_keywords):
                 print(f'{website_id}: Skipping prebuilt or laptop')
@@ -69,7 +82,7 @@ for website_id in range(start_id, end_id):
             
             if 'GPU' in tab_title or 'Graphics Card' in tab_title or 'NVIDIA' in tab_title or 'RTX' in tab_title:
                 if str(website_id) not in existing_skus:
-                    new_entry = {'ID': website_id, 'Brand': brand, 'Tab Title': tab_title, 'Price': price}
+                    new_entry = {'ID': website_id, 'Price': price, 'Brand': brand, 'Model': gpu_model, 'Tab Title': tab_title}
                     new_df = pd.DataFrame([new_entry])
                     new_df.to_csv(file_path, mode='a', header=not os.path.exists(file_path), index=False)
                     existing_skus.add(str(website_id))
