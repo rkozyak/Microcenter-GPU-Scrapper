@@ -46,7 +46,7 @@ def determine_vendor(title):
     title = title.lower()
     if 'nvidia' or 'geforce' in title:
         return 'Nvidia'
-    elif 'amd' in title:
+    elif 'amd' or 'radeon' in title:
         return 'AMD'
     elif 'intel' in title:
         return 'Intel'
@@ -54,11 +54,14 @@ def determine_vendor(title):
 
 # Function to get GPU model from title
 def extract_gpu_model(title):
+    title = title.upper()
     models = [
         '4060', '4070', '4080', '4090',
         '3050', '3060', '3070', '3080', '3090',
         '2060', '2070', '2080',
-        'TITAN'
+        '1060', '1070', '1080',
+        'QUADRO', 'TITAN',
+        'A310', 'A380', 'A580', 'A750', 'A770'
     ]
     for model in models:
         if model in title:
