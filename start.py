@@ -47,7 +47,7 @@ def extract_gpu_model(title):
         '4060', '4070', '4080', '4090',
         '3050', '3060', '3070', '3080', '3090',
         '2060', '2070', '2080',
-        'TITAN RTX'
+        'TITAN'
     ]
     for model in models:
         if model in title:
