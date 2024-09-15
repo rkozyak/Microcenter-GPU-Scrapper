@@ -21,24 +21,15 @@ headers = {
 prebuilt_keywords = ['Laptop', 'Prebuilt']
 
 # Initialize or load existing files
-if os.path.exists(file_path):
-    existing_df = pd.read_csv(file_path)
-else:
-    existing_df = pd.DataFrame(columns=['ID', 'Brand', 'Tab Title', 'Price'])
+def load_existing_skus(file_path):
+    if os.path.exists(file_path):
+        df = pd.read_csv(file_path)
+        return set(df['ID'].astype(str))
+    return set()
 
-if os.path.exists(non_gpu_file_path):
-    non_gpu_df = pd.read_csv(non_gpu_file_path)
-else:
-    non_gpu_df = pd.DataFrame(columns=['ID', 'Tab Title'])
-
-if os.path.exists(error_404_file_path):
-    error_404_df = pd.read_csv(error_404_file_path)
-else:
-    error_404_df = pd.DataFrame(columns=['ID'])
-
-existing_skus = set(existing_df['ID'].astype(str))
-non_gpu_skus = set(non_gpu_df['ID'].astype(str))
-error_404_skus = set(error_404_df['ID'].astype(str))
+existing_skus = load_existing_skus(file_path)
+non_gpu_skus = load_existing_skus(non_gpu_file_path)
+error_404_skus = load_existing_skus(error_404_file_path)
 
 # Function to get price and brand from site
 def extract_price_and_brand(soup, website_id):
@@ -72,8 +63,8 @@ for website_id in range(start_id, end_id):
             if any(keyword in tab_title for keyword in prebuilt_keywords):
                 print(f'{website_id}: Skipping prebuilt or laptop')
                 non_gpu_entry = pd.DataFrame([{'ID': website_id, 'Tab Title': tab_title}])
-                non_gpu_df = pd.concat([non_gpu_df, non_gpu_entry], ignore_index=True)
-                non_gpu_df.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
+                non_gpu_entry.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
+                non_gpu_skus.add(str(website_id))
                 continue
             
             if 'GPU' in tab_title or 'Graphics Card' in tab_title or 'NVIDIA' in tab_title or 'RTX' in tab_title:
@@ -87,8 +78,8 @@ for website_id in range(start_id, end_id):
                     print(f'{website_id}: Already in the file')
             else:
                 non_gpu_entry = pd.DataFrame([{'ID': website_id, 'Tab Title': tab_title}])
-                non_gpu_df = pd.concat([non_gpu_df, non_gpu_entry], ignore_index=True)
-                non_gpu_df.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
+                non_gpu_entry.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
+                non_gpu_skus.add(str(website_id))
                 print(f'{website_id}: Not a GPU')
         
         elif response.status_code == 403:
@@ -97,8 +88,7 @@ for website_id in range(start_id, end_id):
         elif response.status_code == 404:
             print(f'{website_id}: Error 404')
             error_404_entry = pd.DataFrame([{'ID': website_id}])
-            error_404_df = pd.concat([error_404_df, error_404_entry], ignore_index=True)
-            error_404_df.to_csv(error_404_file_path, mode='a', header=not os.path.exists(error_404_file_path), index=False)
+            error_404_entry.to_csv(error_404_file_path, mode='a', header=not os.path.exists(error_404_file_path), index=False)
             error_404_skus.add(str(website_id))
         else:
             print(f'Error: Received status code {response.status_code} for SKU {website_id}.')
