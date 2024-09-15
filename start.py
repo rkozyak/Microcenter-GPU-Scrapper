@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 663856
-end_id = 663859
+start_id = 672112
+end_id = 672126
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
@@ -92,7 +92,7 @@ for website_id in range(start_id, end_id):
                 non_gpu_skus.add(str(website_id))
                 continue
             
-            if 'GPU' in tab_title or 'Graphics Card' in tab_title:
+            if 'Graphics Card' in tab_title:
                 if str(website_id) not in existing_skus:
                     new_entry = {'ID': website_id, 'Price': price, 'Vendor': vendor, 'Brand': brand,  'Model': gpu_model, 'Tab Title': tab_title}
                     new_df = pd.DataFrame([new_entry])
