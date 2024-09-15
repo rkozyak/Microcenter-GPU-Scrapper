@@ -150,7 +150,6 @@ print('Scraping completed.')
 def sort_csv(file_path):
     if os.path.exists(file_path):
         df = pd.read_csv(file_path)
-        if 'Vendor' in df.columns and 'Model' in df.columns:
         
         if 'Vendor' in df.columns and 'Model' in df.columns and 'Price' in df.columns:
             df['Price'] = pd.to_numeric(df['Price'], errors='coerce')
