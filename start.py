@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 660800
-end_id = 676370
+start_id = 660979
+end_id = 660981
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
@@ -44,9 +44,9 @@ def extract_price_and_brand(soup, website_id):
 # Determine the vendor based on the item title
 def determine_vendor(title):
     title = title.lower()
-    if 'nvidia' or 'geforce' in title:
+    if 'nvidia' in title or 'geforce' in title:
         return 'Nvidia'
-    elif 'amd' or 'radeon' in title:
+    elif 'amd' in title or 'radeon' in title:
         return 'AMD'
     elif 'intel' in title:
         return 'Intel'
