@@ -1,23 +1,23 @@
-ID,Price,Brand,Model,Tab Title
-654055,1799.99,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Gaming RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-654056,288.00,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Windforce Triple Fan 24 GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-654069,1999.99,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-654070,1819.99,ASUS,4090,ASUS GeForce RTX 4090 TUF Gaming RGB Overclocked Triple-Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-657039,38.88,PNY,3060,PNY NVIDIA GeForce RTX 3060 Ti Verto LHR Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-666000,999.99,ASRock,Unknown,ASRock AMD Radeon RX 7900 XTX Taichi White RGB Overclocked Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-666824,479.99,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-666828,549.99,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660832,793.59,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660834,103.68,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660836,1039.99,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660884,22.120000,PNY,3070,PNY NVIDIA GeForce RTX 3070 Ti XLR8 Verto Triple Fan 8GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660954,89.99,PowerColor,Unknown,PowerColor AMD Radeon RX 550 Red Dragon Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
-660961,716.79,MSI,4080,MSI NVIDIA GeForce RTX 4080 Suprim X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660962,184.32,MSI,4080,MSI NVIDIA GeForce RTX 4080 Gaming X Trio Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660963,783.99,MSI,4080,MSI NVIDIA GeForce RTX 4080 Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660975,180.00,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 AMP Extreme AIRO Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660976,14.930000,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-660977,39.99,PowerColor,Unknown,PowerColor AMD Radeon R7 240 Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
-660979,189.99,ASRock,Unknown,ASRock Intel Arc A750 Challenger D Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-660980,207.99,ASRock,Unknown,ASRock Intel Arc A770 Phantom Gaming D Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-660995,479.990000,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+ID,Price,Vendor,Brand,Model,Tab Title
+660954,89.99,AMD,PowerColor,Unknown,PowerColor AMD Radeon RX 550 Red Dragon Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
+660977,39.99,AMD,PowerColor,Unknown,PowerColor AMD Radeon R7 240 Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
+666000,999.99,AMD,ASRock,Unknown,ASRock AMD Radeon RX 7900 XTX Taichi White RGB Overclocked Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+660979,189.99,Intel,ASRock,Unknown,ASRock Intel Arc A750 Challenger D Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+660980,207.99,Intel,ASRock,Unknown,ASRock Intel Arc A770 Phantom Gaming D Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+657039,38.88,Nvidia,PNY,3060,PNY NVIDIA GeForce RTX 3060 Ti Verto LHR Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+660884,22.12,Nvidia,PNY,3070,PNY NVIDIA GeForce RTX 3070 Ti XLR8 Verto Triple Fan 8GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+666824,479.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+666828,549.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660832,793.59,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660834,103.68,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660836,1039.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660961,716.79,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Suprim X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660962,184.32,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Gaming X Trio Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660963,783.99,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660975,180.0,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 AMP Extreme AIRO Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660976,14.93,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+660995,479.99,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+654055,1799.99,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Gaming RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+654056,288.0,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Windforce Triple Fan 24 GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+654069,1999.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+654070,1819.99,Nvidia,ASUS,4090,ASUS GeForce RTX 4090 TUF Gaming RGB Overclocked Triple-Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
