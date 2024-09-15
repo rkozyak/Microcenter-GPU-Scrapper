@@ -151,11 +151,14 @@ def sort_csv(file_path):
     if os.path.exists(file_path):
         df = pd.read_csv(file_path)
         if 'Vendor' in df.columns and 'Model' in df.columns:
+        
+        if 'Vendor' in df.columns and 'Model' in df.columns and 'Price' in df.columns:
+            df['Price'] = pd.to_numeric(df['Price'], errors='coerce')
             df = df.sort_values(by=['Vendor', 'Model', 'Price'])
             df.to_csv(file_path, index=False)
             print(f'Sorted and saved {file_path}')
         else:
-            print(f'Columns for sorting not found in {file_path}.')
+            print(f'Required columns not found in {file_path}.')
     else:
         print(f'File {file_path} does not exist.')
 
