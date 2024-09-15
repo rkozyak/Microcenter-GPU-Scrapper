@@ -13,6 +13,9 @@ ID,Price,Vendor,Brand,Model,Tab Title
 671033,68.26,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 3X Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 671034,147.6,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 2X White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 671035,569.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 VENTUS 2X White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676133,759.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Super ROG Strix RGB Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676134,689.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Super TUF Gaming RGB Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676135,619.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Super Dual White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660832,793.59,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660834,103.68,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660836,1039.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 TUF Gaming Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -22,6 +25,8 @@ ID,Price,Vendor,Brand,Model,Tab Title
 660975,180.0,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 AMP Extreme AIRO Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660976,14.93,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660995,479.99,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676131,1249.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super ROG Strix RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676132,1099.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super TUF Gaming RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 654055,1799.99,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Gaming RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 654056,288.0,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Windforce Triple Fan 24 GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 654069,1999.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
