@@ -64,10 +64,13 @@ for website_id in range(start_id, end_id):
                     print(f'{website_id}: Already in the file')
             else:
                 print(f'{website_id}: Not a GPU')
+        elif response.status_code == 403:
+            print(f'{website_id}: Error 403 Forbidden - waiting 10 minutes before retrying.')
+            time.sleep(600)
         elif response.status_code == 404:
             print(f'{website_id}: Error 404')
         else:
-            print(f'Error: Received status code {response.status_code} for SKU {website_id}. URL: {url}')
+            print(f'Error: Received status code {response.status_code} for SKU {website_id}.')
     
     except Exception as e:
         print(f'An error occurred while processing SKU {website_id}: {e}')
