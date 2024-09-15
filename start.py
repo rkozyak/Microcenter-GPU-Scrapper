@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 660800
-end_id = 661000
+start_id = 660970
+end_id = 660980
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
@@ -31,7 +31,7 @@ existing_skus = load_existing_skus(file_path)
 non_gpu_skus = load_existing_skus(non_gpu_file_path)
 error_404_skus = load_existing_skus(error_404_file_path)
 
-# Function to get price and brand from site
+# Function to get price, brand, and vendor from site
 def extract_price_and_brand(soup, website_id):
     class_name = f'ProductLink_{website_id}'
     price_element = soup.find('span', class_=class_name)
@@ -40,6 +40,17 @@ def extract_price_and_brand(soup, website_id):
         brand = price_element.get('data-brand', 'Unknown').strip()
         return price, brand
     return 'Not Available', 'Unknown'
+
+# Determine the vendor based on the item title
+def determine_vendor(title):
+    title = title.lower()
+    if 'nvidia' in title:
+        return 'Nvidia'
+    elif 'amd' in title:
+        return 'AMD'
+    elif 'intel' in title:
+        return 'Intel'
+    return 'Unknown'
 
 # Function to get GPU model from title
 def extract_gpu_model(title):
@@ -71,6 +82,7 @@ for website_id in range(start_id, end_id):
             
             tab_title = soup.title.get_text(strip=True) if soup.title else ''
             price, brand = extract_price_and_brand(soup, website_id)
+            vendor = determine_vendor(tab_title)
             gpu_model = extract_gpu_model(tab_title)
             
             if any(keyword in tab_title for keyword in prebuilt_keywords):
@@ -82,7 +94,7 @@ for website_id in range(start_id, end_id):
             
             if 'GPU' in tab_title or 'Graphics Card' in tab_title:
                 if str(website_id) not in existing_skus:
-                    new_entry = {'ID': website_id, 'Price': price, 'Brand': brand, 'Model': gpu_model, 'Tab Title': tab_title}
+                    new_entry = {'ID': website_id, 'Price': price, 'Brand': brand, 'Vendor': vendor, 'Model': gpu_model, 'Tab Title': tab_title}
                     new_df = pd.DataFrame([new_entry])
                     new_df.to_csv(file_path, mode='a', header=not os.path.exists(file_path), index=False)
                     existing_skus.add(str(website_id))
@@ -109,7 +121,7 @@ for website_id in range(start_id, end_id):
     except Exception as e:
         print(f'An error occurred while processing SKU {website_id}: {e}')
 
-    # Sleep to avoid 403 bans but skip if already in file
+    # Sleep to avoid timeout/bans
     if str(website_id) not in existing_skus and str(website_id) not in non_gpu_skus and str(website_id) not in error_404_skus:
         time.sleep(0.5)
 
