@@ -106,7 +106,7 @@ for website_id in range(start_id, end_id):
     except Exception as e:
         print(f'An error occurred while processing SKU {website_id}: {e}')
 
-    # Sleep to avoid overwhelming the server, but skip if already in file
+    # Sleep to avoid 403 bans but skip if already in file
     if str(website_id) not in existing_skus and str(website_id) not in non_gpu_skus and str(website_id) not in error_404_skus:
         time.sleep(3)
 
