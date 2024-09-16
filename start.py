@@ -7,7 +7,7 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 676370
+start_id = 660800
 end_id = 679000
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
@@ -62,31 +62,51 @@ def extract_gpu_model(title):
         '2060', '2070', '2080',
         '1630', '1650', '1660',
         '1010', '1030', '1050', '1060', '1070', '1080',
+        'A400', 'A1000', 'A2000', 'A4000', 'A4500', 'A5000', 'A5500', 'A6000',
+        'P220','P400', 'P600', 'P620', 'P1000', 'P2000', 'P2200', 'P4000', 'P5000', 'P6000',
+        'T400', 'T600', 'T1000',
+        'K420', 'K620', 'K1200', 'K2200', 'K4200', 'K5200',
+        '410', 'K600', 'K2000', 'K2200', 'K4000', 'K5000', 'K6000',
 
         #intel
         'A310', 'A380', 'A580', 'A750', 'A770',
 
         # amd
+        'W5500', 'W5700',
+        'W6300', 'W6400', 'W6600', 'W6800', 'W6900',
+        'W7500', 'W7600', 'W7700', 'W7800', 'W7900',
         '7600', '7700', '7800', '7900',
         '6300', '6400', '6500', '6600', '6650', '6700', '6750', '6800', '6900', '6950',
         '5300', '5500', '5600', '5700',
-        'VEGA 56', 'VEGA 64',
+        'VEGA 56', 'VEGA 64', 'VII',
         '520', '530', '540', '550', '560', '570', '580', '590',
         '430', '435', '450', '455', '460', '470', '480',
         '330', '340', '350', '360', '370', '370', '390',
         '220', '230', '235', '240', '250', '260', '270', '280', '290', '295',
 
         # other
-        'QUADRO', 'TITAN', 'VEGA'
+        'TITAN', 'VEGA'
     ]
     for model in models:
         if model in title:
             return model
     return 'Unknown'
 
+# Function to save entries to CSV
+def save_to_csv(file_path, data, existing_skus_set):
+    df = pd.DataFrame(data)
+    if os.path.exists(file_path):
+        df_existing = pd.read_csv(file_path)
+        df_combined = pd.concat([df_existing, df])
+        df_combined = df_combined.drop_duplicates(subset=['ID'])
+    else:
+        df_combined = df
+    df_combined.to_csv(file_path, index=False)
+
 # Loop through SKUs
 for website_id in range(start_id, end_id):
-    if str(website_id) in existing_skus or str(website_id) in non_gpu_skus or str(website_id) in error_404_skus:
+    str_website_id = str(website_id)
+    if str_website_id in existing_skus or str_website_id in non_gpu_skus or str_website_id in error_404_skus:
         # Skip already processed SKUs
         print(f'{website_id}: Already processed, skipping.')
         continue
@@ -104,26 +124,26 @@ for website_id in range(start_id, end_id):
             vendor = determine_vendor(tab_title)
             gpu_model = extract_gpu_model(tab_title)
             
+            entry_data = {'ID': website_id, 'Tab Title': tab_title}
             if any(keyword in tab_title for keyword in prebuilt_keywords):
                 print(f'{website_id}: Skipping prebuilt or laptop')
-                non_gpu_entry = pd.DataFrame([{'ID': website_id, 'Tab Title': tab_title}])
-                non_gpu_entry.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
-                non_gpu_skus.add(str(website_id))
+                non_gpu_entry = [{'ID': website_id, 'Tab Title': tab_title}]
+                save_to_csv(non_gpu_file_path, non_gpu_entry, non_gpu_skus)
+                non_gpu_skus.add(str_website_id)
                 continue
             
             if 'Graphics Card' in tab_title:
-                if str(website_id) not in existing_skus:
+                if str_website_id not in existing_skus:
                     new_entry = {'ID': website_id, 'Price': price, 'Vendor': vendor, 'Brand': brand,  'Model': gpu_model, 'Tab Title': tab_title}
-                    new_df = pd.DataFrame([new_entry])
-                    new_df.to_csv(file_path, mode='a', header=not os.path.exists(file_path), index=False)
-                    existing_skus.add(str(website_id))
+                    save_to_csv(file_path, [new_entry], existing_skus)
+                    existing_skus.add(str_website_id)
                     print(f'GPU Found and saved: {tab_title}')
                 else:
                     print(f'{website_id}: Already in the file')
             else:
-                non_gpu_entry = pd.DataFrame([{'ID': website_id, 'Tab Title': tab_title}])
-                non_gpu_entry.to_csv(non_gpu_file_path, mode='a', header=not os.path.exists(non_gpu_file_path), index=False)
-                non_gpu_skus.add(str(website_id))
+                non_gpu_entry = [{'ID': website_id, 'Tab Title': tab_title}]
+                save_to_csv(non_gpu_file_path, non_gpu_entry, non_gpu_skus)
+                non_gpu_skus.add(str_website_id)
                 print(f'{website_id}: Not a GPU')
         
         elif response.status_code == 403:
@@ -131,9 +151,9 @@ for website_id in range(start_id, end_id):
             time.sleep(600)
         elif response.status_code == 404:
             print(f'{website_id}: Error 404')
-            error_404_entry = pd.DataFrame([{'ID': website_id}])
-            error_404_entry.to_csv(error_404_file_path, mode='a', header=not os.path.exists(error_404_file_path), index=False)
-            error_404_skus.add(str(website_id))
+            error_404_entry = [{'ID': website_id}]
+            save_to_csv(error_404_file_path, error_404_entry, error_404_skus)
+            error_404_skus.add(str_website_id)
         else:
             print(f'Error: Received status code {response.status_code} for SKU {website_id}.')
     
@@ -141,8 +161,7 @@ for website_id in range(start_id, end_id):
         print(f'An error occurred while processing SKU {website_id}: {e}')
 
     # Sleep to avoid timeout/bans
-    if str(website_id) not in existing_skus and str(website_id) not in non_gpu_skus and str(website_id) not in error_404_skus:
-        time.sleep(0.5)
+    time.sleep(0.5)
 
 print('Scraping completed.')
 
