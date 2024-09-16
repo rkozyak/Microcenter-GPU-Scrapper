@@ -1,13 +1,29 @@
 ID,Price,Vendor,Brand,Model,Tab Title
 679890,154.99,AMD,ASRock,6500,ASRock AMD Radeon RX 6500 XT Phantom Gaming Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+676883,289.99,AMD,MSI,6700,MSI AMD Radeon RX 6700 XT Mech 2X Overclocked Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676898,319.99,AMD,XFX,6750,XFX AMD Radeon RX 6750 XT Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+676888,519.99,AMD,MSI,6900,MSI AMD Radeon RX 6900 XT Gaming Z Trio Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 666000,999.99,AMD,ASRock,7900,ASRock AMD Radeon RX 7900 XTX Taichi White RGB Overclocked Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 660977,39.99,AMD,PowerColor,Unknown,PowerColor AMD Radeon R7 240 Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
 660954,89.99,AMD,PowerColor,Unknown,PowerColor AMD Radeon RX 550 Red Dragon Low Profile Single Fan 4GB GDDR5 PCIe 3.0 Graphics Card - Micro Center
 660979,189.99,Intel,ASRock,A750,ASRock Intel Arc A750 Challenger D Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 660980,207.99,Intel,ASRock,A770,ASRock Intel Arc A770 Phantom Gaming D Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 672119,99.99,Nvidia,ASUS,1070,ASUS NVIDIA GeForce GTX 1070 Ti ROG Strix Overclocked Triple Fan 8GB GDDR5 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
+676889,179.99,Nvidia,MSI,3050,MSI NVIDIA GeForce RTX 3050 Gaming X Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 657039,38.88,Nvidia,PNY,3060,PNY NVIDIA GeForce RTX 3060 Ti Verto LHR Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+676882,239.99,Nvidia,MSI,3060,MSI NVIDIA GeForce RTX 3060 Gaming X Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676892,239.99,Nvidia,Gigabyte,3060,Gigabyte NVIDIA GeForce RTX 3060 Eagle Rev 2 Overclocked Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676881,249.99,Nvidia,MSI,3060,MSI NVIDIA GeForce RTX 3060 Ti Ventus 2x Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 660884,22.12,Nvidia,PNY,3070,PNY NVIDIA GeForce RTX 3070 Ti XLR8 Verto Triple Fan 8GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676879,329.99,Nvidia,MSI,3070,MSI NVIDIA GeForce RTX 3070 Ventus 3x Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676893,329.99,Nvidia,Gigabyte,3070,Gigabyte NVIDIA GeForce RTX 3070 Gaming LHR Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676887,349.99,Nvidia,MSI,3070,MSI NVIDIA GeForce RTX 3070 Ti Suprim X Overclocked Triple Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676876,399.99,Nvidia,MSI,3080,MSI NVIDIA GeForce RTX 3080 Gaming X Trio Overclocked Triple Fan 10GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676885,399.99,Nvidia,MSI,3080,MSI NVIDIA GeForce RTX 3080 Gaming Z Trio Overclocked Triple Fan 10GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676886,399.99,Nvidia,MSI,3080,MSI NVIDIA GeForce RTX 3080 Ventus 3X LHR Overclocked Triple Fan 10GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676891,399.99,Nvidia,MSI,3080,MSI NVIDIA GeForce RTX 3080 Ventus 3X Overclocked Triple Fan 10GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676877,699.99,Nvidia,MSI,3090,MSI NVIDIA GeForce RTX 3090 Gaming X Trio Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676880,699.99,Nvidia,MSI,3090,MSI NVIDIA GeForce RTX 3090 Suprim X Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 671036,304.99,Nvidia,MSI,4060,MSI NVIDIA GeForce RTX 4060 VENTUS 2X White Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 671033,68.26,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 3X Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 671034,147.6,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 2X White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -32,6 +48,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 660961,716.79,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Suprim X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660963,783.99,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660832,793.59,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676894,839.99,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 676869,989.99,Nvidia,PNY,4080,PNY NVIDIA GeForce RTX 4080 Super VERTO Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676365,999.99,Nvidia,Gigabyte,4080,Gigabyte NVIDIA GeForce RTX 4080 Super Windforce V2 Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676867,1019.99,Nvidia,PNY,4080,PNY NVIDIA GeForce RTX 4080 Super XLR8 Gaming VERTO EPIC-X RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -76,3 +93,6 @@ ID,Price,Vendor,Brand,Model,Tab Title
 663237,1999.99,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Xtreme Waterforce RGB Overclocked Liquid Cooled 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663068,2099.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix White RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 672118,109.99,Nvidia,PNY,QUADRO,PNY NVIDIA QUADRO K620 Single Fan 2 GB GDDR3 PCIe 2.0 Graphics Card (Refurbished) - Micro Center
+676884,49.99,Nvidia,MSI,Unknown,MSI NVIDIA GeForce GT 1030 2GD4 LP Overclocked Single Fan 2GB GDDR4 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
+676878,69.99,Nvidia,MSI,Unknown,MSI NVIDIA GeForce GTX 1050 Ti Gaming X Dual Fan 4GB GDDR5 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
+676890,99.99,Nvidia,MSI,Unknown,MSI NVIDIA GeForce GTX 1650 Gaming X Dual Fan 4GB GDDR5 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
