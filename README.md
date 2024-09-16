@@ -1,5 +1,5 @@
 # Microcenter SKU and GPU Finder
-A small program that finds items sold at Microcetner and saves their price, SKU, and name in a CSV 
+A small program that finds items sold at Micro Center and saves their price, SKU, and name in a CSV 
 
 ## Requirements
 Before running, you must have the following libraries installed:
