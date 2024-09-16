@@ -137,7 +137,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678396,159.99,AMD,PowerColor,VII,PowerColor Radeon VII Triple-Fan 16GB HBM2 PCIe Graphics Card (Refurbished) - Micro Center
 678404,159.99,AMD,AMD,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678470,229.0,AMD,AMD,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-677208,,AMD,Unknown,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+677208,,AMD,AMD,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678405,369.99,AMD,AMD,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678471,429.99,AMD,AMD,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 677207,,AMD,Unknown,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
@@ -494,7 +494,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 654069,1999.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663237,1999.99,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Xtreme Waterforce RGB Overclocked Liquid Cooled 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663068,2099.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix White RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
-661136,,Nvidia,Unknown,4090,Micro Center - NVIDIA NVIDIA GeForce RTX 4090 Founders Edition Dual Fan 24GB GDDR6X PCIe 4.0 Graphics Card 9001G1362530000
+661136,,Nvidia,NVIDIA,4090,Micro Center - NVIDIA NVIDIA GeForce RTX 4090 Founders Edition Dual Fan 24GB GDDR6X PCIe 4.0 Graphics Card 9001G1362530000
 678380,599.99,Nvidia,PNY,A400,PNY NVIDIA RTX A4000 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678381,899.99,Nvidia,PNY,A4500,PNY NVIDIA RTX A4500 Single Fan 20GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678382,1399.99,Nvidia,PNY,A5000,PNY NVIDIA RTX A5000 Single Fan 24 GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
