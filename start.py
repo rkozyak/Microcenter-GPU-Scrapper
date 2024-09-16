@@ -7,8 +7,8 @@ import os
 print('Program started')
 
 # Configurations
-start_id = 676920
-end_id = 677514
+start_id = 676370
+end_id = 677688#678702
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
