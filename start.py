@@ -8,7 +8,7 @@ print('Program started')
 
 # Configurations
 start_id = 676370
-end_id = 678702
+end_id = 679000
 base_url = 'https://www.microcenter.com/product/{}/gpu'
 file_path = 'discovered_gpus.csv'
 non_gpu_file_path = 'discovered_non_gpus.csv'
