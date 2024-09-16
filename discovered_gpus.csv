@@ -47,6 +47,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678328,289.99,AMD,PowerColor,6750,PowerColor AMD Radeon RX 6750 XT Fighter Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678329,289.99,AMD,XFX,6750,XFX AMD Radeon RX 6750 XT Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 676898,319.99,AMD,XFX,6750,XFX AMD Radeon RX 6750 XT Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+676181,339.99,AMD,PowerColor,6750,PowerColor AMD Radeon RX 6750 XT Fighter Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678170,329.99,AMD,Sapphire Technology,6800,Sapphire Technology AMD Radeon RX 6800 Nitro Plus Overclocked Triple-Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678171,329.99,AMD,Sapphire Technology,6800,Sapphire Technology AMD Radeon RX 6800 Pulse Overclocked Triple-Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678172,329.99,AMD,XFX,6800,XFX AMD Radeon RX 6800 Speedster SWFT 319 Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -104,6 +105,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678357,349.99,AMD,Sapphire Technology,7700,Sapphire Technology AMD Radeon RX 7700 XT Nitro Plus Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678358,349.99,AMD,Sapphire Technology,7700,Sapphire Technology AMD Radeon RX 7700 XT Pure Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678359,349.99,AMD,ASUS,7700,ASUS AMD Radeon RX 7700 XT Dual Overclocked Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676123,439.99,AMD,ASUS,7700,ASUS AMD Radeon RX 7700 XT Dual Overclocked Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678360,429.99,AMD,PowerColor,7800,PowerColor AMD Radeon RX 7800 XT Red Devil Limited Edition Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678361,429.99,AMD,PowerColor,7800,PowerColor AMD Radeon RX 7800 XT Hellhound Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678362,429.99,AMD,ASUS,7800,ASUS AMD Radeon RX 7800 XT TUF Gaming Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -120,6 +122,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678373,429.99,AMD,PowerColor,7800,PowerColor Radeon RX 7800 XT Hellhound Spectral White Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678374,429.99,AMD,XFX,7800,XFX AMD Radeon RX 7800 XT Speedster MERC 319 Black Edition Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678375,429.99,AMD,ASUS,7800,ASUS AMD Radeon RX 7800 XT Dual Overclocked Dual Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676122,499.99,AMD,ASUS,7800,ASUS AMD Radeon RX 7800 XT Dual Overclocked Dual Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 676845,529.99,AMD,ASRock,7900,ASRock AMD Radeon RX 7900 GRE Challenger Overclocked Dual Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 677030,539.99,AMD,PowerColor,7900,PowerColor Radeon RX 7900 GRE Fighter Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 677618,539.99,AMD,Gigabyte,7900,Gigabyte AMD Radeon RX 7900 GRE Gaming RGB Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
@@ -292,9 +295,11 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678532,399.99,Nvidia,ASUS,4060,ASUS NVIDIA GeForce RTX 4060 Ti Dual EVO Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 671033,68.26,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 3X Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676322,89.64,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Ti Trinity White Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676121,100.8,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Dual EVO Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 671034,147.6,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti VENTUS 2X White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676559,153.0,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Super Ventus 3X Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 671032,187.2,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Gaming X Slim Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676207,260.0,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Super Trinity Black Edition Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 666824,479.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 678118,479.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678119,479.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 ROG Strix Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -332,6 +337,8 @@ ID,Price,Vendor,Brand,Model,Tab Title
 671035,569.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 VENTUS 2X White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676479,594.99,Nvidia,PNY,4070,PNY NVIDIA GeForce RTX 4070 Super Verto Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676383,599.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Super Windforce Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676208,599.99,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Super Twin Edge RGB Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676217,599.99,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Super Twin Edge RGB Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 678535,609.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Super Dual EVO Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676135,619.99,Nvidia,ASUS,4070,ASUS NVIDIA GeForce RTX 4070 Super Dual White Overclocked Dual Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676381,619.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Super Eagle RGB Overclocked Triple Fan 12GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -385,11 +392,14 @@ ID,Price,Vendor,Brand,Model,Tab Title
 676607,799.99,Nvidia,PNY,4070,PNY NVIDIA GeForce RTX 4070 Ti Super VERTO Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676374,799.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Ti Super Windforce Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676561,799.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Super Ventus 2X Overclocked Dual Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676219,799.99,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Ti Super Trinity RGB Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676560,809.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Super Ventus 2X White Overclocked Dual Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676371,829.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Ti Super Eagle RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 677617,829.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Ti Super Eagle Ice Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676369,839.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Ti Super Gaming RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676652,839.99,Nvidia,PNY,4070,PNY NVIDIA GeForce RTX 4070 Ti Super XLR8 Gaming VERTO Epic-X RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676220,839.99,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Ti Super Trinity White RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676221,839.99,Nvidia,Zotac,4070,Zotac NVIDIA GeForce RTX 4070 Ti Super AMP Holo RGB Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676558,849.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Super Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676557,869.99,Nvidia,MSI,4070,MSI NVIDIA GeForce RTX 4070 Ti Super Gaming X Slim RGB Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676368,879.99,Nvidia,Gigabyte,4070,Gigabyte NVIDIA GeForce RTX 4070 Ti Super Aero RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -403,10 +413,12 @@ ID,Price,Vendor,Brand,Model,Tab Title
 660975,180.0,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 AMP Extreme AIRO Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676364,180.0,Nvidia,Gigabyte,4080,Gigabyte NVIDIA GeForce RTX 4080 Super Windforce Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660962,184.32,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Gaming X Trio Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676036,460.0,Nvidia,PNY,4080,PNY NVIDIA GeForce RTX 4080 VERTO Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660995,479.99,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Trinity Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676633,500.0,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Super Ventus 3X Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663067,512.0,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix White Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 677202,600.0,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+676233,639.99,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Super Trinity Black Edition Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660961,716.79,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Suprim X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660963,783.99,Nvidia,MSI,4080,MSI NVIDIA GeForce RTX 4080 Ventus 3X Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 660832,793.59,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
@@ -440,6 +452,7 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678312,869.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super ROG Strix White Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678313,869.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super ROG Strix Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678314,869.99,Nvidia,ASUS,4080,ASUS NVIDIA GeForce RTX 4080 Super Noctua Overclocked Dual Fan 16GB GDDR6X PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+676232,879.99,Nvidia,Zotac,4080,Zotac NVIDIA GeForce RTX 4080 Super AMP Extreme AIRO Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676869,989.99,Nvidia,PNY,4080,PNY NVIDIA GeForce RTX 4080 Super VERTO Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676365,999.99,Nvidia,Gigabyte,4080,Gigabyte NVIDIA GeForce RTX 4080 Super Windforce V2 Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 676867,1019.99,Nvidia,PNY,4080,PNY NVIDIA GeForce RTX 4080 Super XLR8 Gaming VERTO EPIC-X RGB Overclocked Triple Fan 16GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
