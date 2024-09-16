@@ -16,9 +16,6 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678157.0,89.99,AMD,Sapphire Technology,5700,Sapphire Technology AMD Radeon RX 5700 Pulse Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678158.0,89.99,AMD,ASUS,5700,ASUS Radeon RX 5700 XT ROG Strix Overclocked Triple-Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678156.0,89.99,AMD,MSI,5700,MSI RX 5700 EVOKE Overclocked Dual-Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
-678404.0,159.99,AMD,AMD,6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
-678470.0,229.0,AMD,AMD,6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-677208.0,,AMD,Unknown,6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 679890.0,154.99,AMD,ASRock,6500,ASRock AMD Radeon RX 6500 XT Phantom Gaming Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678159.0,139.99,AMD,Gigabyte,6600,Gigabyte AMD Radeon RX 6600 Eagle Triple-Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678160.0,139.99,AMD,ASRock,6600,ASRock AMD Radeon RX 6600 Challenger D Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -94,7 +91,6 @@ ID,Price,Vendor,Brand,Model,Tab Title
 676570.0,349.99,AMD,PowerColor,7600,PowerColor AMD Radeon RX 7600 XT Hellhound Dual Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 676572.0,349.99,AMD,Sapphire Technology,7600,Sapphire Technology AMD Radeon RX 7600 XT Pulse Dual Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 676815.0,379.99,AMD,ASUS,7600,ASUS AMD Radeon RX 7600 XT TUF Gaming RGB Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-678473.0,599.99,AMD,AMD,7600,AMD AMD Radeon Pro W7600 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678348.0,349.99,AMD,Gigabyte,7700,Gigabyte AMD Radeon RX 7700 XT Gaming Overclocked Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678349.0,349.99,AMD,PowerColor,7700,PowerColor AMD Radeon RX 7700 XT Hellhound Overclocked Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678350.0,349.99,AMD,PowerColor,7700,PowerColor AMD Radeon RX 7700 XT Fighter Overclocked Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -107,9 +103,6 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678357.0,349.99,AMD,Sapphire Technology,7700,Sapphire Technology AMD Radeon RX 7700 XT Nitro Plus Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678358.0,349.99,AMD,Sapphire Technology,7700,Sapphire Technology AMD Radeon RX 7700 XT Pure Triple Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678359.0,349.99,AMD,ASUS,7700,ASUS AMD Radeon RX 7700 XT Dual Overclocked Dual Fan 12GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
-678406.0,479.99,AMD,AMD,7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
-678472.0,999.99,AMD,AMD,7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-677205.0,,AMD,Unknown,7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678360.0,429.99,AMD,PowerColor,7800,PowerColor AMD Radeon RX 7800 XT Red Devil Limited Edition Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678361.0,429.99,AMD,PowerColor,7800,PowerColor AMD Radeon RX 7800 XT Hellhound Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678362.0,429.99,AMD,ASUS,7800,ASUS AMD Radeon RX 7800 XT TUF Gaming Overclocked Triple Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -140,10 +133,17 @@ ID,Price,Vendor,Brand,Model,Tab Title
 678378.0,809.99,AMD,PowerColor,7900,PowerColor AMD Radeon RX 7900 XTX Hellhound Spectral White Overclocked Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678379.0,809.99,AMD,XFX,7900,XFX AMD Radeon RX 7900 XTX Speedster MERC 310 Black Edition Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 666000.0,999.99,AMD,ASRock,7900,ASRock AMD Radeon RX 7900 XTX Taichi White RGB Overclocked Triple Fan 24GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-678396.0,159.99,AMD,PowerColor,Unknown,PowerColor Radeon VII Triple-Fan 16GB HBM2 PCIe Graphics Card (Refurbished) - Micro Center
-678405.0,369.99,AMD,AMD,Unknown,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
-678471.0,429.99,AMD,AMD,Unknown,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
-677207.0,,AMD,Unknown,Unknown,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+678396.0,159.99,AMD,PowerColor,VII,PowerColor Radeon VII Triple-Fan 16GB HBM2 PCIe Graphics Card (Refurbished) - Micro Center
+678404.0,159.99,AMD,AMD,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678470.0,229.0,AMD,AMD,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+677208.0,,AMD,Unknown,W6400,AMD AMD Radeon PRO W6400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+678405.0,369.99,AMD,AMD,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678471.0,429.99,AMD,AMD,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+677207.0,,AMD,Unknown,W7500,AMD AMD Radeon PRO W7500 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+678473.0,599.99,AMD,AMD,W7600,AMD AMD Radeon Pro W7600 Single Fan 8GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+678406.0,479.99,AMD,AMD,W7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678472.0,999.99,AMD,AMD,W7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
+677205.0,,AMD,Unknown,W7700,AMD AMD Radeon Pro W7700 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 676564.0,99.99,Intel,Sparkle,A310,Sparkle Intel Arc A310 ECO Low Profile Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 676563.0,124.99,Intel,Sparkle,A380,Sparkle Intel Arc A380 GENIE Low Profile Dual Fan 6GB GDDR6 PCIe 4.0 Graphics Card - Micro Center
 678384.0,109.99,Intel,Sparkle,A580,Sparkle Intel Arc A580 ORC Overclocked Dual Fan 8GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
@@ -487,7 +487,13 @@ ID,Price,Vendor,Brand,Model,Tab Title
 654069.0,1999.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663237.0,1999.99,Nvidia,Gigabyte,4090,Gigabyte NVIDIA GeForce RTX 4090 Xtreme Waterforce RGB Overclocked Liquid Cooled 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
 663068.0,2099.99,Nvidia,ASUS,4090,ASUS NVIDIA GeForce RTX 4090 ROG Strix White RGB Overclocked Triple Fan 24GB GDDR6X PCIe 4.0 Graphics Card - Micro Center
+678380.0,599.99,Nvidia,PNY,A400,PNY NVIDIA RTX A4000 Single Fan 16GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678381.0,899.99,Nvidia,PNY,A4500,PNY NVIDIA RTX A4500 Single Fan 20GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678382.0,1399.99,Nvidia,PNY,A5000,PNY NVIDIA RTX A5000 Single Fan 24 GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
 678076.0,119.99,Nvidia,PNY,P220,PNY NVIDIA Quadro P220 Single Fan 5GB GDDR5X PCIe 3.0 Graphics Card (Refurbished) - Micro Center
+678400.0,79.99,Nvidia,PNY,T400,PNY NVIDIA T400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678399.0,79.99,Nvidia,PNY,T400,PNY NVIDIA T400 Single Fan 4GB GDDR6 PCIe 4.0 Graphics Card (Refurbished) - Micro Center
+678401.0,159.99,Nvidia,PNY,T600,PNY NVIDIA Quadro T600 Single-Fan 4GB GDDR6 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
 678402.0,959.99,Nvidia,NVIDIA,TITAN,NVIDIA TITAN RTX Dual-Fan 24GB GDDR6 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
 678403.0,959.99,Nvidia,Bitspower,TITAN,Bitspower TITAN RTX Dual-Fan 24GB GDDR6 PCIe 3.0 Graphics Card (Refurbished) - Micro Center
 ,,,,,
