@@ -1,9 +1,9 @@
-# Microcenter GPU Scraper
-Small program that searches for Microcenter GPU models and saves their SKU and Price in a CSV file
-
+# Microcenter SKU and GPU Finder
+A small program that finds items sold at Microcetner and saves their price, SKU, and name in a CSV 
 
 ## Requirements
-Before running, you must have requests, beautifulSoup and pandas installed
+Before running, you must have the following libraries installed:
+requests, beautifulSoup and pandas 
 
 ```bash
 pip install requests beautifulsoup4 pandas
